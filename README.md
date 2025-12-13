@@ -28,28 +28,24 @@ This document is the submission for Homework 1 for the Linux course. It covers b
 ```bash
 ls ~
 ```
-![Screenshot: list home directory](HW1_Linux_IDiallo.png#image-1)
 
 ### 1.2 View current working directory.
 
 ```bash
 pwd
 ```
-![Screenshot: view current directory](HW1_Linux_IDiallo.png#image-2)
 
 ### 1.3 Display the contents of a specific file.
 
 ```bash
 cat filename.txt
 ```
-![Screenshot: display file contents](HW1_Linux_IDiallo.png#image-3)
 
 ### 1.4 Create a directory named `linux_hw1`.
 
 ```bash
 mkdir linux_hw1
 ```
-![Screenshot: create directory](HW1_Linux_IDiallo.png#image-4)
 
 ---
 
@@ -62,7 +58,6 @@ Change the permissions of `linux_hw1` so that only the owner can read, write, an
 ```bash
 chmod 700 linux_hw1
 ```
-![Screenshot: change directory permissions](HW1_Linux_IDiallo.png#image-5)
 
 ### 2.2 Create and edit a file
 
@@ -74,14 +69,12 @@ vim linux_hw1/notes.txt
 
 Type text, then save and exit with `:wq`.
 
-![Screenshot: edit file with vim](HW1_Linux_IDiallo.png#image-6)
 
 ### 2.3 See active processes
 
 ```bash
 ps aux
 ```
-![Screenshot: list running processes](HW1_Linux_IDiallo.png#image-7)
 
 ---
 
@@ -92,21 +85,18 @@ ps aux
 ```bash
 cp notes.txt ../backup/
 ```
-![Screenshot: copy file](HW1_Linux_IDiallo.png#image-8)
 
 ### 3.2 Move (rename) a file
 
 ```bash
 mv notes.txt notes-final.txt
 ```
-![Screenshot: move (rename) file](HW1_Linux_IDiallo.png#image-9)
 
 ### 3.3 Remove a directory
 
 ```bash
 rm -r linux_hw1
 ```
-![Screenshot: remove directory](HW1_Linux_IDiallo.png#image-10)
 
 ---
 
@@ -134,8 +124,6 @@ Run the script:
 ./hw1_script.sh
 ```
 
-![Screenshot: run shell script](HW1_Linux_IDiallo.png#image-11)
-
 ### 4.2 Loop through files in a directory
 
 ```bash
@@ -143,8 +131,6 @@ for file in *; do
   echo "File: $file"
 done
 ```
-![Screenshot: loop through files](HW1_Linux_IDiallo.png#image-12)
-
 ---
 
 ## 5. Conclusion
